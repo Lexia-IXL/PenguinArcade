@@ -18,7 +18,7 @@
   {
     "name": "ChatGPT",
     "key": "chatgpt",
-    "url": "https://us.anyproxy.site/r/aHR0cHM6Ly9jaGF0Z3B0LmNvbS8?sig=FH9-KXzQY5kmrDzy1yRgvimlZqXoEoglHwn4yjwxong&sid=a4d7cb7e590345898247a2d415e64b4c&exp=1795278277&bid=bf6be6c091194655b30034ef538a9d97",
+    "url": "https://chatgpt.com/",
     "description": "AI assistant",
     "image": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
     "fallback": "assets/sites/chatgpt.svg"
