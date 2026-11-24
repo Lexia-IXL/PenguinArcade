@@ -1,0 +1,82 @@
+[
+  {
+    "name": "YouTube",
+    "key": "youtube",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly93d3cueW91dHViZS5jb20/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "description": "Video platform",
+    "image": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
+    "fallback": "assets/sites/youtube.svg"
+  },
+  {
+    "name": "DuckDuckGo",
+    "key": "duckduckgo",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9kdWNrZHVja2dvLmNvbQ/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "description": "Private search",
+    "image": "https://www.google.com/s2/favicons?domain=duckduckgo.com&sz=128",
+    "fallback": "assets/sites/duckduckgo.svg"
+  },
+  {
+    "name": "ChatGPT",
+    "key": "chatgpt",
+    "url": "https://us.anyproxy.site/r/aHR0cHM6Ly9jaGF0Z3B0LmNvbS8?sig=FH9-KXzQY5kmrDzy1yRgvimlZqXoEoglHwn4yjwxong&sid=a4d7cb7e590345898247a2d415e64b4c&exp=1795278277&bid=bf6be6c091194655b30034ef538a9d97",
+    "description": "AI assistant",
+    "image": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
+    "fallback": "assets/sites/chatgpt.svg"
+  },
+  {
+    "name": "Roblox",
+    "key": "roblox",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly93d3cucm9ibG94LmNvbQ/CreateAccount?sid=a4d7cb7e590345898247a2d415e64b4c#https://www.roblox.com/CreateAccount",
+    "description": "Games and creation",
+    "image": "https://www.google.com/s2/favicons?domain=www.roblox.com&sz=128",
+    "fallback": "assets/sites/roblox.svg"
+  },
+  {
+    "name": "Google Gemini",
+    "key": "gemini",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9nZW1pbmkuZ29vZ2xlLmNvbQ/app?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "description": "AI assistant",
+    "image": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+    "fallback": "assets/sites/gemini.svg"
+  },
+  {
+    "name": "WhatsApp",
+    "key": "whatsapp",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly93d3cud2hhdHNhcHAuY29t/?sid=a4d7cb7e590345898247a2d415e64b4c#https://www.whatsapp.com/",
+    "description": "Messaging",
+    "image": "https://www.google.com/s2/favicons?domain=www.whatsapp.com&sz=128",
+    "fallback": "assets/sites/whatsapp.svg"
+  },
+  {
+    "name": "Claude AI",
+    "key": "claude",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9jbGF1ZGUuYWk/login?sid=a4d7cb7e590345898247a2d415e64b4c#https://claude.ai/login",
+    "description": "AI assistant",
+    "image": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+    "fallback": "assets/sites/claude.svg"
+  },
+  {
+    "name": "Frogies Arcade",
+    "key": "frogies",
+    "url": "https://us.anyproxy.site/r/aHR0cHM6Ly9mcm9naWVzYXJjYWRlLndpbi8?sid=a4d7cb7e590345898247a2d415e64b4c&bid=ea90471466bb41aea0641d15006892d7#https://frogiesarcade.win/",
+    "description": "Browser games",
+    "image": "https://www.google.com/s2/favicons?domain=frogiesarcade.win&sz=128",
+    "fallback": "assets/sites/frogies.svg"
+  },
+  {
+    "name": "GitHub",
+    "key": "github",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9naXRodWIuY29t/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "description": "Code hosting",
+    "image": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "fallback": "assets/sites/github.svg"
+  },
+  {
+    "name": "Render",
+    "key": "render",
+    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9yZW5kZXIuY29t/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "description": "Cloud hosting",
+    "image": "https://www.google.com/s2/favicons?domain=render.com&sz=128",
+    "fallback": "assets/sites/render.svg"
+  }
+]
