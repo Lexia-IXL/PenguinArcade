@@ -1,82 +1,400 @@
-[
-  {
-    "name": "YouTube",
-    "key": "youtube",
-    "url": "https://www.youtube.com/",
-    "description": "Video platform",
-    "image": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
-    "fallback": "assets/sites/youtube.svg"
-  },
-  {
-    "name": "DuckDuckGo",
-    "key": "duckduckgo",
-    "url": "https://duckduckgo.com/",
-    "description": "Private search",
-    "image": "https://www.google.com/s2/favicons?domain=duckduckgo.com&sz=128",
-    "fallback": "assets/sites/duckduckgo.svg"
-  },
-  {
-    "name": "ChatGPT",
-    "key": "chatgpt",
-    "url": "https://chatgpt.com/",
-    "description": "AI assistant",
-    "image": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
-    "fallback": "assets/sites/chatgpt.svg"
-  },
-  {
-    "name": "Roblox",
-    "key": "roblox",
-    "url": "https://www.roblox.com/CreateAccount",
-    "description": "Games and creation",
-    "image": "https://www.google.com/s2/favicons?domain=www.roblox.com&sz=128",
-    "fallback": "assets/sites/roblox.svg"
-  },
-  {
-    "name": "Google Gemini",
-    "key": "gemini",
-    "url": "https://gemini.google.com/?pli=1",
-    "description": "AI assistant",
-    "image": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
-    "fallback": "assets/sites/gemini.svg"
-  },
-  {
-    "name": "WhatsApp",
-    "key": "whatsapp",
-    "url": "https://www.whatsapp.com/",
-    "description": "Messaging",
-    "image": "https://www.google.com/s2/favicons?domain=www.whatsapp.com&sz=128",
-    "fallback": "assets/sites/whatsapp.svg"
-  },
-  {
-    "name": "Claude AI",
-    "key": "claude",
-    "url": "https://claude.ai/login",
-    "description": "AI assistant",
-    "image": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
-    "fallback": "assets/sites/claude.svg"
-  },
-  {
-    "name": "Frogies Arcade",
-    "key": "frogies",
-    "url": "https://frogiesarcade.win/",
-    "description": "Browser games",
-    "image": "https://www.google.com/s2/favicons?domain=frogiesarcade.win&sz=128",
-    "fallback": "assets/sites/frogies.svg"
-  },
-  {
-    "name": "GitHub",
-    "key": "github",
-    "url": "https://github.com/",
-    "description": "Code hosting",
-    "image": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
-    "fallback": "assets/sites/github.svg"
-  },
-  {
-    "name": "Render",
-    "key": "render",
-    "url": "https://render.com/",
-    "description": "Cloud hosting",
-    "image": "https://www.google.com/s2/favicons?domain=render.com&sz=128",
-    "fallback": "assets/sites/render.svg"
+
+<section id="websites-page" class="page">
+  <style>
+    .website-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+      gap: 18px;
+      padding: 20px 0 60px;
+    }
+
+    .website-card {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      width: 100%;
+      padding: 15px;
+      color: var(--text,white);
+      text-align: left;
+      background: linear-gradient(145deg,rgba(27,24,43,.96),rgba(13,12,23,.96));
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 15px;
+      cursor: pointer;
+      transition: .2s ease;
+    }
+
+    .website-card:hover {
+      transform: translateY(-4px);
+      border-color: #a17bff;
+      box-shadow: 0 12px 35px rgba(0,0,0,.35);
+    }
+
+    .website-image-wrap {
+      width: 70px;
+      height: 70px;
+      min-width: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      border-radius: 12px;
+      background: white;
+    }
+
+    .website-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .website-info {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .website-info h3 {
+      margin: 0 0 5px;
+      font-size: 15px;
+    }
+
+    .website-info p {
+      margin: 0 0 10px;
+      color: #a49bb9;
+      font-size: 12px;
+    }
+
+    .website-open {
+      color: #b99aff;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .website-player {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      background: #08080d;
+    }
+
+    .website-player.hidden {
+      display: none;
+    }
+
+    .website-player-header {
+      height: 60px;
+      min-height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 18px;
+      background: #12111c;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+
+    .website-player-title,
+    .website-player-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .website-player-title {
+      color: white;
+      font-weight: 700;
+    }
+
+    #website-player-icon {
+      width: 27px;
+      height: 27px;
+      object-fit: contain;
+      border-radius: 5px;
+      background: white;
+    }
+
+    .website-control {
+      width: 36px;
+      height: 36px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 9px;
+      background: #242132;
+      color: white;
+      font-size: 19px;
+      cursor: pointer;
+    }
+
+    .website-control:hover {
+      background: #7950c9;
+    }
+
+    .website-control.close {
+      font-size: 25px;
+      background: #34202c;
+    }
+
+    .website-viewer-notice {
+      padding: 8px;
+      background: #211a32;
+      color: #d0c0ed;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    #website-frame {
+      flex: 1;
+      width: 100%;
+      min-height: 0;
+      border: none;
+      background: white;
+    }
+
+    @media(max-width:600px) {
+      .website-grid {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 10px;
+      }
+
+      .website-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px;
+      }
+
+      .website-image-wrap {
+        width: 55px;
+        height: 55px;
+        min-width: 55px;
+      }
+    }
+  </style>
+
+  <div class="page-heading">
+    <div>
+      <div class="eyebrow">YOUR FAVORITE DESTINATIONS</div>
+      <h1>Websites</h1>
+      <p>Browse your favorite websites without leaving Arcade Hub.</p>
+    </div>
+    <div class="library-total">
+      <strong>10</strong>
+      <span>WEBSITES</span>
+    </div>
+  </div>
+
+  <div id="website-grid" class="website-grid"></div>
+</section>
+
+<div id="website-player" class="website-player hidden">
+  <div class="website-player-header">
+    <div class="website-player-title">
+      <button id="close-website" class="website-control close">×</button>
+      <img id="website-player-icon" src="" alt="">
+      <span id="website-player-name">Website</span>
+    </div>
+
+    <div class="website-player-controls">
+      <button id="reload-website" class="website-control" title="Reload">↻</button>
+      <button id="open-website-external" class="website-control" title="Open in new tab">↗</button>
+      <button id="fullscreen-website" class="website-control" title="Fullscreen">⛶</button>
+    </div>
+  </div>
+
+  <div class="website-viewer-notice">
+    Some websites block embedded viewing. Use ↗ to open them separately.
+  </div>
+
+  <iframe
+    id="website-frame"
+    title="Website viewer"
+    allow="autoplay; fullscreen; clipboard-read; clipboard-write"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<script>
+(() => {
+  const websites = [
+    {
+      name: "YouTube",
+      key: "youtube",
+      url: "https://www.youtube.com/",
+      description: "Video platform",
+      image: "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
+      fallback: "assets/sites/youtube.svg"
+    },
+    {
+      name: "DuckDuckGo",
+      key: "duckduckgo",
+      url: "https://duckduckgo.com/",
+      description: "Private search",
+      image: "https://www.google.com/s2/favicons?domain=duckduckgo.com&sz=128",
+      fallback: "assets/sites/duckduckgo.svg"
+    },
+    {
+      name: "ChatGPT",
+      key: "chatgpt",
+      url: "https://chatgpt.com/",
+      description: "AI assistant",
+      image: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
+      fallback: "assets/sites/chatgpt.svg"
+    },
+    {
+      name: "Roblox",
+      key: "roblox",
+      url: "https://www.roblox.com/CreateAccount",
+      description: "Games and creation",
+      image: "https://www.google.com/s2/favicons?domain=www.roblox.com&sz=128",
+      fallback: "assets/sites/roblox.svg"
+    },
+    {
+      name: "Google Gemini",
+      key: "gemini",
+      url: "https://gemini.google.com/?pli=1",
+      description: "AI assistant",
+      image: "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+      fallback: "assets/sites/gemini.svg"
+    },
+    {
+      name: "WhatsApp",
+      key: "whatsapp",
+      url: "https://www.whatsapp.com/",
+      description: "Messaging",
+      image: "https://www.google.com/s2/favicons?domain=www.whatsapp.com&sz=128",
+      fallback: "assets/sites/whatsapp.svg"
+    },
+    {
+      name: "Claude AI",
+      key: "claude",
+      url: "https://claude.ai/login",
+      description: "AI assistant",
+      image: "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      fallback: "assets/sites/claude.svg"
+    },
+    {
+      name: "Frogies Arcade",
+      key: "frogies",
+      url: "https://frogiesarcade.win/",
+      description: "Browser games",
+      image: "https://www.google.com/s2/favicons?domain=frogiesarcade.win&sz=128",
+      fallback: "assets/sites/frogies.svg"
+    },
+    {
+      name: "GitHub",
+      key: "github",
+      url: "https://github.com/",
+      description: "Code hosting",
+      image: "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+      fallback: "assets/sites/github.svg"
+    },
+    {
+      name: "Render",
+      key: "render",
+      url: "https://render.com/",
+      description: "Cloud hosting",
+      image: "https://www.google.com/s2/favicons?domain=render.com&sz=128",
+      fallback: "assets/sites/render.svg"
+    }
+  ];
+
+  const grid = document.getElementById('website-grid');
+  const player = document.getElementById('website-player');
+  const frame = document.getElementById('website-frame');
+
+  let currentWebsite = null;
+
+  function escapeHTML(value) {
+    return String(value ?? '').replace(/[&<>"']/g, char => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    })[char]);
   }
-]
+
+  function renderWebsites() {
+    grid.innerHTML = websites.map(site => `
+      <button class="website-card" type="button"
+        data-website-key="${escapeHTML(site.key)}">
+        <div class="website-image-wrap">
+          <img class="website-image"
+            src="${escapeHTML(site.image)}"
+            data-fallback="${escapeHTML(site.fallback)}"
+            alt="${escapeHTML(site.name)} logo"
+            loading="lazy">
+        </div>
+        <div class="website-info">
+          <h3>${escapeHTML(site.name)}</h3>
+          <p>${escapeHTML(site.description)}</p>
+          <span class="website-open">OPEN WEBSITE →</span>
+        </div>
+      </button>
+    `).join('');
+
+    grid.querySelectorAll('.website-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const site = websites.find(
+          item => item.key === card.dataset.websiteKey
+        );
+        if (site) openWebsite(site);
+      });
+    });
+
+    grid.querySelectorAll('.website-image').forEach(img => {
+      img.addEventListener('error', () => {
+        if (img.dataset.fallback) {
+          img.src = img.dataset.fallback;
+          img.dataset.fallback = '';
+        }
+      });
+    });
+  }
+
+  function openWebsite(site) {
+    currentWebsite = site;
+
+    document.getElementById('website-player-name').textContent = site.name;
+    document.getElementById('website-player-icon').src = site.image;
+
+    frame.src = site.url;
+    player.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeWebsite() {
+    player.classList.add('hidden');
+    frame.src = 'about:blank';
+    currentWebsite = null;
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('close-website')
+    .addEventListener('click', closeWebsite);
+
+  document.getElementById('reload-website')
+    .addEventListener('click', () => {
+      if (currentWebsite) frame.src = currentWebsite.url;
+    });
+
+  document.getElementById('open-website-external')
+    .addEventListener('click', () => {
+      if (currentWebsite) {
+        window.open(currentWebsite.url, '_blank', 'noopener,noreferrer');
+      }
+    });
+
+  document.getElementById('fullscreen-website')
+    .addEventListener('click', () => {
+      if (frame.requestFullscreen) frame.requestFullscreen();
+    });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !player.classList.contains('hidden')) {
+      closeWebsite();
+    }
+  });
+
+  renderWebsites();
+})();
+</script>
