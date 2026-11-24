@@ -10,7 +10,7 @@
   {
     "name": "DuckDuckGo",
     "key": "duckduckgo",
-    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9kdWNrZHVja2dvLmNvbQ/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "url": "https://duckduckgo.com/",
     "description": "Private search",
     "image": "https://www.google.com/s2/favicons?domain=duckduckgo.com&sz=128",
     "fallback": "assets/sites/duckduckgo.svg"
