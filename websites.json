@@ -2,170 +2,204 @@
 <section id="websites-page" class="page">
   <style>
     .website-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
-      gap: 18px;
-      padding: 20px 0 60px;
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+      gap:18px;
+      padding:20px 0 60px;
     }
 
     .website-card {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      width: 100%;
-      padding: 15px;
-      color: var(--text,white);
-      text-align: left;
-      background: linear-gradient(145deg,rgba(27,24,43,.96),rgba(13,12,23,.96));
-      border: 1px solid rgba(255,255,255,.08);
-      border-radius: 15px;
-      cursor: pointer;
-      transition: .2s ease;
+      display:flex;
+      align-items:center;
+      gap:15px;
+      width:100%;
+      padding:15px;
+      color:var(--text,white);
+      text-align:left;
+      background:linear-gradient(145deg,rgba(27,24,43,.96),rgba(13,12,23,.96));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:15px;
+      cursor:pointer;
+      transition:.2s ease;
     }
 
     .website-card:hover {
-      transform: translateY(-4px);
-      border-color: #a17bff;
-      box-shadow: 0 12px 35px rgba(0,0,0,.35);
+      transform:translateY(-4px);
+      border-color:#a17bff;
+      box-shadow:0 12px 35px rgba(0,0,0,.35);
     }
 
     .website-image-wrap {
-      width: 70px;
-      height: 70px;
-      min-width: 70px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 10px;
-      border-radius: 12px;
-      background: white;
+      width:70px;
+      height:70px;
+      min-width:70px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:10px;
+      border-radius:12px;
+      background:white;
     }
 
     .website-image {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
+      width:100%;
+      height:100%;
+      object-fit:contain;
     }
 
     .website-info {
-      min-width: 0;
-      flex: 1;
+      min-width:0;
+      flex:1;
     }
 
     .website-info h3 {
-      margin: 0 0 5px;
-      font-size: 15px;
+      margin:0 0 5px;
+      font-size:15px;
     }
 
     .website-info p {
-      margin: 0 0 10px;
-      color: #a49bb9;
-      font-size: 12px;
+      margin:0 0 10px;
+      color:#a49bb9;
+      font-size:12px;
     }
 
     .website-open {
-      color: #b99aff;
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 1px;
+      color:#b99aff;
+      font-size:10px;
+      font-weight:800;
+      letter-spacing:1px;
+    }
+
+    .website-search {
+      display:flex;
+      gap:10px;
+      width:100%;
+      max-width:750px;
+      margin:25px 0 10px;
+    }
+
+    .website-search input {
+      flex:1;
+      min-width:0;
+      padding:16px 20px;
+      color:white;
+      background:#171522;
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:12px;
+      outline:none;
+      font-size:15px;
+    }
+
+    .website-search input:focus {
+      border-color:#a17bff;
+      box-shadow:0 0 15px #8a2be233;
+    }
+
+    .website-search button {
+      padding:0 24px;
+      color:white;
+      background:linear-gradient(135deg,#8a2be2,#bd65ff);
+      border:0;
+      border-radius:12px;
+      font-weight:800;
+      cursor:pointer;
     }
 
     .website-player {
-      position: fixed;
-      inset: 0;
-      z-index: 99999;
-      display: flex;
-      flex-direction: column;
-      background: #08080d;
+      position:fixed;
+      inset:0;
+      z-index:99999;
+      display:flex;
+      flex-direction:column;
+      background:#08080d;
     }
 
     .website-player.hidden {
-      display: none;
+      display:none;
     }
 
     .website-player-header {
-      height: 60px;
-      min-height: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 18px;
-      background: #12111c;
-      border-bottom: 1px solid rgba(255,255,255,.1);
+      height:60px;
+      min-height:60px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:0 18px;
+      background:#12111c;
+      border-bottom:1px solid rgba(255,255,255,.1);
     }
 
     .website-player-title,
     .website-player-controls {
-      display: flex;
-      align-items: center;
-      gap: 12px;
+      display:flex;
+      align-items:center;
+      gap:12px;
     }
 
     .website-player-title {
-      color: white;
-      font-weight: 700;
+      color:white;
+      font-weight:700;
     }
 
     #website-player-icon {
-      width: 27px;
-      height: 27px;
-      object-fit: contain;
-      border-radius: 5px;
-      background: white;
+      width:27px;
+      height:27px;
+      object-fit:contain;
+      border-radius:5px;
+      background:white;
     }
 
     .website-control {
-      width: 36px;
-      height: 36px;
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: 9px;
-      background: #242132;
-      color: white;
-      font-size: 19px;
-      cursor: pointer;
+      width:36px;
+      height:36px;
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:9px;
+      background:#242132;
+      color:white;
+      font-size:19px;
+      cursor:pointer;
     }
 
     .website-control:hover {
-      background: #7950c9;
-    }
-
-    .website-control.close {
-      font-size: 25px;
-      background: #34202c;
+      background:#7950c9;
     }
 
     .website-viewer-notice {
-      padding: 8px;
-      background: #211a32;
-      color: #d0c0ed;
-      font-size: 11px;
-      text-align: center;
+      padding:8px;
+      background:#211a32;
+      color:#d0c0ed;
+      font-size:11px;
+      text-align:center;
     }
 
     #website-frame {
-      flex: 1;
-      width: 100%;
-      min-height: 0;
-      border: none;
-      background: white;
+      flex:1;
+      width:100%;
+      min-height:0;
+      border:0;
+      background:white;
     }
 
     @media(max-width:600px) {
       .website-grid {
-        grid-template-columns: repeat(2,minmax(0,1fr));
-        gap: 10px;
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:10px;
       }
 
       .website-card {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 12px;
+        flex-direction:column;
+        align-items:flex-start;
+        padding:12px;
       }
 
       .website-image-wrap {
-        width: 55px;
-        height: 55px;
-        min-width: 55px;
+        width:55px;
+        height:55px;
+        min-width:55px;
+      }
+
+      .website-search button {
+        padding:0 15px;
       }
     }
   </style>
@@ -174,7 +208,7 @@
     <div>
       <div class="eyebrow">YOUR FAVORITE DESTINATIONS</div>
       <h1>Websites</h1>
-      <p>Browse your favorite websites without leaving Arcade Hub.</p>
+      <p>Search the web or open your favorite websites.</p>
     </div>
     <div class="library-total">
       <strong>10</strong>
@@ -182,31 +216,38 @@
     </div>
   </div>
 
+  <form id="website-search-form" class="website-search">
+    <input
+      id="website-search-input"
+      type="text"
+      placeholder="Search Google or enter a website address..."
+      autocomplete="off">
+    <button type="submit">SEARCH</button>
+  </form>
+
   <div id="website-grid" class="website-grid"></div>
 </section>
 
 <div id="website-player" class="website-player hidden">
   <div class="website-player-header">
     <div class="website-player-title">
-      <button id="close-website" class="website-control close">×</button>
+      <button id="close-website" class="website-control">×</button>
       <img id="website-player-icon" src="" alt="">
       <span id="website-player-name">Website</span>
     </div>
 
     <div class="website-player-controls">
-      <button id="reload-website" class="website-control" title="Reload">↻</button>
-      <button id="open-website-external" class="website-control" title="Open in new tab">↗</button>
-      <button id="fullscreen-website" class="website-control" title="Fullscreen">⛶</button>
+      <button id="reload-website" class="website-control">↻</button>
+      <button id="open-website-external" class="website-control">↗</button>
+      <button id="fullscreen-website" class="website-control">⛶</button>
     </div>
   </div>
 
   <div class="website-viewer-notice">
-    Some websites block embedded viewing. Use ↗ to open them separately.
+    Some websites block embedded viewing. Use ↗ if a website does not load.
   </div>
 
-  <iframe
-    id="website-frame"
-    title="Website viewer"
+  <iframe id="website-frame" title="Website viewer"
     allow="autoplay; fullscreen; clipboard-read; clipboard-write"
     allowfullscreen>
   </iframe>
@@ -216,100 +257,99 @@
 (() => {
   const websites = [
     {
-      name: "YouTube",
-      key: "youtube",
-      url: "https://www.youtube.com/",
-      description: "Video platform",
-      image: "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
-      fallback: "assets/sites/youtube.svg"
+      name:"YouTube",
+      key:"youtube",
+      url:"https://www.youtube.com/",
+      description:"Video platform",
+      image:"https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
+      fallback:"assets/sites/youtube.svg"
     },
     {
-      name: "DuckDuckGo",
-      key: "duckduckgo",
-      url: "https://duckduckgo.com/",
-      description: "Private search",
-      image: "https://www.google.com/s2/favicons?domain=duckduckgo.com&sz=128",
-      fallback: "assets/sites/duckduckgo.svg"
+      name:"DuckDuckGo",
+      key:"duckduckgo",
+      url:"https://duckduckgo.com/",
+      description:"Private search",
+      image:"https://www.google.com/s2/favicons?domain=duckduckgo.com&sz=128",
+      fallback:"assets/sites/duckduckgo.svg"
     },
     {
-      name: "ChatGPT",
-      key: "chatgpt",
-      url: "https://chatgpt.com/",
-      description: "AI assistant",
-      image: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
-      fallback: "assets/sites/chatgpt.svg"
+      name:"ChatGPT",
+      key:"chatgpt",
+      url:"https://chatgpt.com/",
+      description:"AI assistant",
+      image:"https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
+      fallback:"assets/sites/chatgpt.svg"
     },
     {
-      name: "Roblox",
-      key: "roblox",
-      url: "https://www.roblox.com/CreateAccount",
-      description: "Games and creation",
-      image: "https://www.google.com/s2/favicons?domain=www.roblox.com&sz=128",
-      fallback: "assets/sites/roblox.svg"
+      name:"Roblox",
+      key:"roblox",
+      url:"https://www.roblox.com/CreateAccount",
+      description:"Games and creation",
+      image:"https://www.google.com/s2/favicons?domain=www.roblox.com&sz=128",
+      fallback:"assets/sites/roblox.svg"
     },
     {
-      name: "Google Gemini",
-      key: "gemini",
-      url: "https://gemini.google.com/?pli=1",
-      description: "AI assistant",
-      image: "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
-      fallback: "assets/sites/gemini.svg"
+      name:"Google Gemini",
+      key:"gemini",
+      url:"https://gemini.google.com/?pli=1",
+      description:"AI assistant",
+      image:"https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+      fallback:"assets/sites/gemini.svg"
     },
     {
-      name: "WhatsApp",
-      key: "whatsapp",
-      url: "https://www.whatsapp.com/",
-      description: "Messaging",
-      image: "https://www.google.com/s2/favicons?domain=www.whatsapp.com&sz=128",
-      fallback: "assets/sites/whatsapp.svg"
+      name:"WhatsApp",
+      key:"whatsapp",
+      url:"https://www.whatsapp.com/",
+      description:"Messaging",
+      image:"https://www.google.com/s2/favicons?domain=www.whatsapp.com&sz=128",
+      fallback:"assets/sites/whatsapp.svg"
     },
     {
-      name: "Claude AI",
-      key: "claude",
-      url: "https://claude.ai/login",
-      description: "AI assistant",
-      image: "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
-      fallback: "assets/sites/claude.svg"
+      name:"Claude AI",
+      key:"claude",
+      url:"https://claude.ai/login",
+      description:"AI assistant",
+      image:"https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+      fallback:"assets/sites/claude.svg"
     },
     {
-      name: "Frogies Arcade",
-      key: "frogies",
-      url: "https://frogiesarcade.win/",
-      description: "Browser games",
-      image: "https://www.google.com/s2/favicons?domain=frogiesarcade.win&sz=128",
-      fallback: "assets/sites/frogies.svg"
+      name:"Frogies Arcade",
+      key:"frogies",
+      url:"https://frogiesarcade.win/",
+      description:"Browser games",
+      image:"https://www.google.com/s2/favicons?domain=frogiesarcade.win&sz=128",
+      fallback:"assets/sites/frogies.svg"
     },
     {
-      name: "GitHub",
-      key: "github",
-      url: "https://github.com/",
-      description: "Code hosting",
-      image: "https://www.google.com/s2/favicons?domain=github.com&sz=128",
-      fallback: "assets/sites/github.svg"
+      name:"GitHub",
+      key:"github",
+      url:"https://github.com/",
+      description:"Code hosting",
+      image:"https://www.google.com/s2/favicons?domain=github.com&sz=128",
+      fallback:"assets/sites/github.svg"
     },
     {
-      name: "Render",
-      key: "render",
-      url: "https://render.com/",
-      description: "Cloud hosting",
-      image: "https://www.google.com/s2/favicons?domain=render.com&sz=128",
-      fallback: "assets/sites/render.svg"
+      name:"Render",
+      key:"render",
+      url:"https://render.com/",
+      description:"Cloud hosting",
+      image:"https://www.google.com/s2/favicons?domain=render.com&sz=128",
+      fallback:"assets/sites/render.svg"
     }
   ];
 
   const grid = document.getElementById('website-grid');
   const player = document.getElementById('website-player');
   const frame = document.getElementById('website-frame');
-
   let currentWebsite = null;
 
   function escapeHTML(value) {
     return String(value ?? '').replace(/[&<>"']/g, char => ({
-      '&': '&amp;',
-      '<': '&lt;',
-      '>': '&gt;',
-      '"': '&quot;',
-      "'": '&#39;'
+      '&':'&amp;',
+      '<':'&lt;',
+      '>':'&gt;',
+      '"':'&quot;',
+      "'":'&#39;'
     })[char]);
   }
 
@@ -353,24 +393,58 @@
 
   function openWebsite(site) {
     currentWebsite = site;
-
     document.getElementById('website-player-name').textContent = site.name;
     document.getElementById('website-player-icon').src = site.image;
-
     frame.src = site.url;
     player.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
   }
 
-  function closeWebsite() {
-    player.classList.add('hidden');
-    frame.src = 'about:blank';
-    currentWebsite = null;
-    document.body.style.overflow = '';
+  function searchWebsite(query) {
+    query = query.trim();
+    if (!query) return;
+
+    let url;
+
+    // A direct URL or domain opens directly.
+    if (/^https?:\/\//i.test(query)) {
+      try {
+        const parsed = new URL(query);
+        if (!['http:', 'https:'].includes(parsed.protocol)) return;
+        url = parsed.href;
+      } catch {
+        return;
+      }
+    } else if (/^(localhost|[\w-]+(\.[\w-]+)+)(:\d+)?(\/.*)?$/i.test(query)) {
+      url = 'https://' + query;
+    } else {
+      // Anything else becomes a Google search.
+      url = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+    }
+
+    openWebsite({
+      name: query,
+      url: url,
+      image: 'https://www.google.com/s2/favicons?domain=' +
+        encodeURIComponent(new URL(url).hostname) + '&sz=128'
+    });
   }
 
+  document.getElementById('website-search-form')
+    .addEventListener('submit', event => {
+      event.preventDefault();
+      searchWebsite(
+        document.getElementById('website-search-input').value
+      );
+    });
+
   document.getElementById('close-website')
-    .addEventListener('click', closeWebsite);
+    .addEventListener('click', () => {
+      player.classList.add('hidden');
+      frame.src = 'about:blank';
+      currentWebsite = null;
+      document.body.style.overflow = '';
+    });
 
   document.getElementById('reload-website')
     .addEventListener('click', () => {
@@ -391,7 +465,7 @@
 
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && !player.classList.contains('hidden')) {
-      closeWebsite();
+      document.getElementById('close-website').click();
     }
   });
 
