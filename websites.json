@@ -66,7 +66,7 @@
   {
     "name": "GitHub",
     "key": "github",
-    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9naXRodWIuY29t/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "url": "https://github.com/",
     "description": "Code hosting",
     "image": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
     "fallback": "assets/sites/github.svg"
@@ -74,7 +74,7 @@
   {
     "name": "Render",
     "key": "render",
-    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9yZW5kZXIuY29t/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "url": "https://render.com/",
     "description": "Cloud hosting",
     "image": "https://www.google.com/s2/favicons?domain=render.com&sz=128",
     "fallback": "assets/sites/render.svg"
