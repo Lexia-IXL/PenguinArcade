@@ -2,7 +2,7 @@
   {
     "name": "YouTube",
     "key": "youtube",
-    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly93d3cueW91dHViZS5jb20/?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "url": "https://www.youtube.com/",
     "description": "Video platform",
     "image": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
     "fallback": "assets/sites/youtube.svg"
