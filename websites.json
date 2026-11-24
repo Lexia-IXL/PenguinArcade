@@ -42,7 +42,7 @@
   {
     "name": "WhatsApp",
     "key": "whatsapp",
-    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly93d3cud2hhdHNhcHAuY29t/?sid=a4d7cb7e590345898247a2d415e64b4c#https://www.whatsapp.com/",
+    "url": "https://www.whatsapp.com/",
     "description": "Messaging",
     "image": "https://www.google.com/s2/favicons?domain=www.whatsapp.com&sz=128",
     "fallback": "assets/sites/whatsapp.svg"
@@ -50,7 +50,7 @@
   {
     "name": "Claude AI",
     "key": "claude",
-    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9jbGF1ZGUuYWk/login?sid=a4d7cb7e590345898247a2d415e64b4c#https://claude.ai/login",
+    "url": "https://claude.ai/login",
     "description": "AI assistant",
     "image": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
     "fallback": "assets/sites/claude.svg"
@@ -58,7 +58,7 @@
   {
     "name": "Frogies Arcade",
     "key": "frogies",
-    "url": "https://us.anyproxy.site/r/aHR0cHM6Ly9mcm9naWVzYXJjYWRlLndpbi8?sid=a4d7cb7e590345898247a2d415e64b4c&bid=ea90471466bb41aea0641d15006892d7#https://frogiesarcade.win/",
+    "url": "https://frogiesarcade.win/",
     "description": "Browser games",
     "image": "https://www.google.com/s2/favicons?domain=frogiesarcade.win&sz=128",
     "fallback": "assets/sites/frogies.svg"
