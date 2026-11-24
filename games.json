@@ -1,0 +1,163 @@
+
+[
+  {
+    "title": "Geometrydashlite",
+    "file": "geometrydashlite.html",
+    "category": "Platformer",
+    "image": "https://hotgames.io/data/image/game/geometrydashlite.png",
+    "search": "geometrydashlite geometrydashlite.html platformer",
+    "fallback": "assets/thumbs/dd4166c2a367cc5e.svg"
+  },
+  {
+    "title": "EaglercraftX 1.8",
+    "file": "clEaglercraftX188(u29).html",
+    "category": "Simulation",
+    "image": "https://deev.is/eagler/cors/eagler-1.8-u22-titlescreen-480p.png",
+    "search": "eaglercraftx 1.8 cleaglercraftx188(u29).html simulation",
+    "fallback": "assets/thumbs/87ebe82211146700.svg"
+  },
+  {
+    "title": "Shadow Client - Offline",
+    "file": "cleaglercraftshadow.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/863d9fa6f30cc1da.svg",
+    "search": "shadow client - offline cleaglercraftshadow.html simulation",
+    "fallback": "assets/thumbs/863d9fa6f30cc1da.svg"
+  },
+  {
+    "title": "Geometry Dash Subzero",
+    "file": "clgdsubzero.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/76152ee7c96e01fb.svg",
+    "search": "geometry dash subzero clgdsubzero.html platformer",
+    "fallback": "assets/thumbs/76152ee7c96e01fb.svg"
+  },
+  {
+    "title": "EaglercraftL 1.9",
+    "file": "clEaglercraftL_19_v0_7_0_Offline_Signed(1).html",
+    "category": "Simulation",
+    "image": "assets/thumbs/4ae25e6d23bfa41e.svg",
+    "search": "eaglercraftl 1.9 cleaglercraftl_19_v0_7_0_offline_signed(1).html simulation",
+    "fallback": "assets/thumbs/4ae25e6d23bfa41e.svg"
+  },
+  {
+    "title": "Eaglercraft152",
+    "file": "cleaglercraft152.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/fa043dc9978a0e56.svg",
+    "search": "eaglercraft152 cleaglercraft152.html simulation",
+    "fallback": "assets/thumbs/fa043dc9978a0e56.svg"
+  },
+  {
+    "title": "Cluster Rush",
+    "file": "clusterrush.html",
+    "category": "Racing",
+    "image": "https://clusterrush.co/uploads/thumbnails/c/cluster-rush_xlarge.jpg",
+    "search": "cluster rush clusterrush.html racing",
+    "fallback": "assets/thumbs/74a3168338130ab3.svg"
+  },
+  {
+    "title": "Open Syobon Action",
+    "file": "clcatmariogood.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/7a6c407443bd1769.svg",
+    "search": "open syobon action clcatmariogood.html platformer",
+    "fallback": "assets/thumbs/7a6c407443bd1769.svg"
+  },
+  {
+    "title": "Basket Bros",
+    "file": "clbasketbros.html",
+    "category": "Sports",
+    "image": "https://playvio.io/thumbs/basket-bros_1.webp",
+    "search": "basket bros clbasketbros.html sports",
+    "fallback": "assets/thumbs/c62eabcb63890ba7.svg"
+  },
+  {
+    "title": "Sandstone",
+    "file": "clsandstone.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/bcac3644a0117dbd.svg",
+    "search": "sandstone clsandstone.html arcade",
+    "fallback": "assets/thumbs/bcac3644a0117dbd.svg"
+  },
+  {
+    "title": "Operius",
+    "file": "cloperius.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/0d2ef77adff3744f.svg",
+    "search": "operius cloperius.html arcade",
+    "fallback": "assets/thumbs/0d2ef77adff3744f.svg"
+  },
+  {
+    "title": "Territorial.io",
+    "file": "clterritorialio.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/441fee59675eb68a.svg",
+    "search": "territorial.io clterritorialio.html arcade",
+    "fallback": "assets/thumbs/441fee59675eb68a.svg"
+  },
+  {
+    "title": "Eaglercraft Launcher | Indev Offline",
+    "file": "clEaglercraft-Indev-Offline(1).html",
+    "category": "Simulation",
+    "image": "assets/thumbs/a9553b9b2cd0d580.svg",
+    "search": "eaglercraft launcher | indev offline cleaglercraft-indev-offline(1).html simulation",
+    "fallback": "assets/thumbs/a9553b9b2cd0d580.svg"
+  },
+  {
+    "title": "Eaglercraft Launcher | Indev Offline",
+    "file": "clEaglercraft-Indev-Offline(2).html",
+    "category": "Simulation",
+    "image": "assets/thumbs/73542f2b37888a7d.svg",
+    "search": "eaglercraft launcher | indev offline cleaglercraft-indev-offline(2).html simulation",
+    "fallback": "assets/thumbs/73542f2b37888a7d.svg"
+  },
+  {
+    "title": "Ai",
+    "file": "clai.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/6b20344da1c31c74.svg",
+    "search": "ai clai.html arcade",
+    "fallback": "assets/thumbs/6b20344da1c31c74.svg"
+  },
+  {
+    "title": "Streangeropepolice",
+    "file": "clstreangeropepolice.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/915d8f36bbe5746b.svg",
+    "search": "streangeropepolice clstreangeropepolice.html arcade",
+    "fallback": "assets/thumbs/915d8f36bbe5746b.svg"
+  },
+  {
+    "title": "Dodecadragons",
+    "file": "cldodecadragons.html",
+    "category": "Arcade",
+    "image": "https://demonin.com/games/dodecaDragons/img/logo.png",
+    "search": "dodecadragons cldodecadragons.html arcade",
+    "fallback": "assets/thumbs/ac53aba8f60035f3.svg"
+  },
+  {
+    "title": "Helios Browser",
+    "file": "clHelios-Offline (1).html",
+    "category": "Arcade",
+    "image": "assets/thumbs/29eefc0c558d66e1.svg",
+    "search": "helios browser clhelios-offline (1).html arcade",
+    "fallback": "assets/thumbs/29eefc0c558d66e1.svg"
+  },
+  {
+    "title": "Yohoho.io",
+    "file": "clyohohoio.html",
+    "category": "Arcade",
+    "image": "https://cdn.jsdelivr.net/gh/deformed-steve/yohohoio@main/img/banner1200x630.jpg",
+    "search": "yohoho.io clyohohoio.html arcade",
+    "fallback": "assets/thumbs/a9f444f083dcad27.svg"
+  },
+  {
+    "title": "Dinosaur Game Chrome",
+    "file": "clgoogledino.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/b4ba724e42b70b34.svg",
+    "search": "dinosaur game chrome clgoogledino.html arcade",
+    "fallback": "assets/thumbs/b4ba724e42b70b34.svg"
+  }
+]
