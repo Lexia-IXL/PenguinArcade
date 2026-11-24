@@ -34,7 +34,7 @@
   {
     "name": "Google Gemini",
     "key": "gemini",
-    "url": "https://us.anyproxy.site/_o/aHR0cHM6Ly9nZW1pbmkuZ29vZ2xlLmNvbQ/app?sid=a4d7cb7e590345898247a2d415e64b4c",
+    "url": "https://gemini.google.com/?pli=1",
     "description": "AI assistant",
     "image": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
     "fallback": "assets/sites/gemini.svg"
