@@ -322,3 +322,484 @@
     "search": "pico-8 cartridge cljustoneboss.html racing",
     "fallback": "assets/thumbs/fdd9fb6a73d532e9.svg"
   }
+
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clbas.html",
+    "category": "Racing",
+    "image": "assets/thumbs/107a680332491714.svg",
+    "search": "pico-8 cartridge clbas.html racing",
+    "fallback": "assets/thumbs/107a680332491714.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clintoruins.html",
+    "category": "Racing",
+    "image": "assets/thumbs/63a5c65ad10186e9.svg",
+    "search": "pico-8 cartridge clintoruins.html racing",
+    "fallback": "assets/thumbs/63a5c65ad10186e9.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clsnakelike.html",
+    "category": "Racing",
+    "image": "assets/thumbs/747ffa23fb9bad1a.svg",
+    "search": "pico-8 cartridge clsnakelike.html racing",
+    "fallback": "assets/thumbs/747ffa23fb9bad1a.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clpiecesofcake.html",
+    "category": "Racing",
+    "image": "assets/thumbs/efec85186fd15c3f.svg",
+    "search": "pico-8 cartridge clpiecesofcake.html racing",
+    "fallback": "assets/thumbs/efec85186fd15c3f.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clkalikan.html",
+    "category": "Racing",
+    "image": "assets/thumbs/02b1a4359afaaab5.svg",
+    "search": "pico-8 cartridge clkalikan.html racing",
+    "fallback": "assets/thumbs/02b1a4359afaaab5.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clhighstakes.html",
+    "category": "Racing",
+    "image": "assets/thumbs/4c9efa280e30791f.svg",
+    "search": "pico-8 cartridge clhighstakes.html racing",
+    "fallback": "assets/thumbs/4c9efa280e30791f.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clpiconightpunkin.html",
+    "category": "Racing",
+    "image": "assets/thumbs/867ffad55750f16f.svg",
+    "search": "pico-8 cartridge clpiconightpunkin.html racing",
+    "fallback": "assets/thumbs/867ffad55750f16f.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clmimic.html",
+    "category": "Racing",
+    "image": "assets/thumbs/85722b6582519fcb.svg",
+    "search": "pico-8 cartridge clmimic.html racing",
+    "fallback": "assets/thumbs/85722b6582519fcb.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clpullfrog.html",
+    "category": "Racing",
+    "image": "assets/thumbs/14dd342c3852af2e.svg",
+    "search": "pico-8 cartridge clpullfrog.html racing",
+    "fallback": "assets/thumbs/14dd342c3852af2e.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clduskchild.html",
+    "category": "Racing",
+    "image": "assets/thumbs/08bb3753c3ac5ff6.svg",
+    "search": "pico-8 cartridge clduskchild.html racing",
+    "fallback": "assets/thumbs/08bb3753c3ac5ff6.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clsuikapico.html",
+    "category": "Racing",
+    "image": "assets/thumbs/5a0c414b59c892e0.svg",
+    "search": "pico-8 cartridge clsuikapico.html racing",
+    "fallback": "assets/thumbs/5a0c414b59c892e0.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clufoswampoddysey.html",
+    "category": "Racing",
+    "image": "assets/thumbs/3c220c05962f8e3a.svg",
+    "search": "pico-8 cartridge clufoswampoddysey.html racing",
+    "fallback": "assets/thumbs/3c220c05962f8e3a.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clwitchcrafttd.html",
+    "category": "Racing",
+    "image": "assets/thumbs/320b491d7894eaf7.svg",
+    "search": "pico-8 cartridge clwitchcrafttd.html racing",
+    "fallback": "assets/thumbs/320b491d7894eaf7.svg"
+  },
+  {
+    "title": "Ice Dodo - Play Online at Onionfist.com",
+    "file": "clicedodo.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/a98cbba3305692aa.svg",
+    "search": "ice dodo clicedodo.html arcade",
+    "fallback": "assets/thumbs/a98cbba3305692aa.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clhotwax.html",
+    "category": "Racing",
+    "image": "assets/thumbs/d96c5d4c461afc14.svg",
+    "search": "pico-8 cartridge clhotwax.html racing",
+    "fallback": "assets/thumbs/d96c5d4c461afc14.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clpicolife.html",
+    "category": "Racing",
+    "image": "assets/thumbs/d46b3f9c35ee72d4.svg",
+    "search": "pico-8 cartridge clpicolife.html racing",
+    "fallback": "assets/thumbs/d46b3f9c35ee72d4.svg"
+  },
+  {
+    "title": "Gold Digger FRVR",
+    "file": "clgolddiggerfrvr.html",
+    "category": "Puzzle",
+    "image": "assets/thumbs/ef099d6baeaf756d.svg",
+    "search": "gold digger frvr clgolddiggerfrvr.html puzzle",
+    "fallback": "assets/thumbs/ef099d6baeaf756d.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clHaroldsbadday.html",
+    "category": "Racing",
+    "image": "assets/thumbs/ff6974bb858220c4.svg",
+    "search": "pico-8 cartridge clHaroldsbadday.html racing",
+    "fallback": "assets/thumbs/ff6974bb858220c4.svg"
+  },
+  {
+    "title": "Stickman Duel",
+    "file": "clstickmanduel.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/eb5e70af9df26b92.svg",
+    "search": "stickman duel clstickmanduel.html arcade",
+    "fallback": "assets/thumbs/eb5e70af9df26b92.svg"
+  },
+  {
+    "title": "Soccer Bros",
+    "file": "clsoccerbros.html",
+    "category": "Sports",
+    "image": "assets/thumbs/f242f4b014ceba50.svg",
+    "search": "soccer bros clsoccerbros.html sports",
+    "fallback": "assets/thumbs/f242f4b014ceba50.svg"
+  },
+  {
+    "title": "Quantum Clicker",
+    "file": "clQuantumClicker.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/54d9c4cdd74ed513.svg",
+    "search": "quantum clicker clQuantumClicker.html simulation",
+    "fallback": "assets/thumbs/54d9c4cdd74ed513.svg"
+  },
+  {
+    "title": "Grow a Garden in Growden.io",
+    "file": "clgrowdenio.html",
+    "category": "Simulation",
+    "image": "https://growden.io/background-og.webp",
+    "search": "grow a garden growden clgrowdenio.html simulation",
+    "fallback": "assets/thumbs/a9f4132ae381d05a.svg"
+  },
+  {
+    "title": "Dogeminer",
+    "file": "cldogeminer.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/73bc7edcb1a9734e.svg",
+    "search": "dogeminer cldogeminer.html arcade",
+    "fallback": "assets/thumbs/73bc7edcb1a9734e.svg"
+  },
+  {
+    "title": "Chat Trap",
+    "file": "cltrapthecat.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/9a05f409511fc28c.svg",
+    "search": "chat trap cltrapthecat.html arcade",
+    "fallback": "assets/thumbs/9a05f409511fc28c.svg"
+  },
+  {
+    "title": "Deadly Descent",
+    "file": "cldeadlydescent.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/6680882a7a95d3c3.svg",
+    "search": "deadly descent cldeadlydescent.html arcade",
+    "fallback": "assets/thumbs/6680882a7a95d3c3.svg"
+  },
+  {
+    "title": "Karate Bros",
+    "file": "clkaratebros.html",
+    "category": "Arcade",
+    "image": "https://basketbros.io/karate/splash2.jpg",
+    "search": "karate bros clkaratebros.html arcade",
+    "fallback": "assets/thumbs/734a71e2cc0f5b26.svg"
+  },
+  {
+    "title": "SMB1 Web Gameplay",
+    "file": "clsmb12.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/6cdc41d7e9ae4ff9.svg",
+    "search": "smb1 web gameplay clsmb12.html arcade",
+    "fallback": "assets/thumbs/6cdc41d7e9ae4ff9.svg"
+  },
+  {
+    "title": "Doodle Jump",
+    "file": "cldoodlejumpgoober.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/54a753f312a65355.svg",
+    "search": "doodle jump cldoodlejumpgoober.html platformer",
+    "fallback": "assets/thumbs/54a753f312a65355.svg"
+  },
+  {
+    "title": "Granny Creepy House",
+    "file": "clgrannycreepy.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/584bc73e241a8d3a.svg",
+    "search": "granny creepy house clgrannycreepy.html arcade",
+    "fallback": "assets/thumbs/584bc73e241a8d3a.svg"
+  },
+  {
+    "title": "Supreme Duelist",
+    "file": "clSupremeDuelist2019.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/6e9c4b6d5590c43b.svg",
+    "search": "supreme duelist clsupremeduelist2019.html arcade",
+    "fallback": "assets/thumbs/6e9c4b6d5590c43b.svg"
+  },
+  {
+    "title": "Skyrace 3D",
+    "file": "clskyrace-3d.html",
+    "category": "Racing",
+    "image": "assets/thumbs/a952ea7d255b9d10.svg",
+    "search": "skyrace 3d clskyrace-3d.html racing",
+    "fallback": "assets/thumbs/a952ea7d255b9d10.svg"
+  },
+  {
+    "title": "Car Crash Test",
+    "file": "clcarcrash3.html",
+    "category": "Racing",
+    "image": "assets/thumbs/7832cf4de8e29652.svg",
+    "search": "car crash test clcarcrash3.html racing",
+    "fallback": "assets/thumbs/7832cf4de8e29652.svg"
+  },
+  {
+    "title": "Doodle Jump",
+    "file": "cldoodlejump.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/2e5b07590c8ca544.svg",
+    "search": "doodle jump cldoodlejump.html platformer",
+    "fallback": "assets/thumbs/2e5b07590c8ca544.svg"
+  },
+  {
+    "title": "Spacebar Clicker",
+    "file": "clspacebarclicker.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/495866db6023c5bc.svg",
+    "search": "spacebar clicker clspacebarclicker.html simulation",
+    "fallback": "assets/thumbs/495866db6023c5bc.svg"
+  },
+  {
+    "title": "Crazy Motorcycle",
+    "file": "clcrazymotorcycle.html",
+    "category": "Racing",
+    "image": "assets/thumbs/3bf10c8bf47cd8cf.svg",
+    "search": "crazy motorcycle clcrazymotorcycle.html racing",
+    "fallback": "assets/thumbs/3bf10c8bf47cd8cf.svg"
+  },
+  {
+    "title": "Swing for Brainrots",
+    "file": "clswingforbrainrots.html",
+    "category": "Puzzle",
+    "image": "assets/thumbs/add3312dfc29ed0f.svg",
+    "search": "swing for brainrots clswingforbrainrots.html puzzle",
+    "fallback": "assets/thumbs/add3312dfc29ed0f.svg"
+  },
+  {
+    "title": "3D Dash Editor",
+    "file": "cl3dasheditor.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/75d8f8366b2f8399.svg",
+    "search": "3d dash editor cl3dasheditor.html arcade",
+    "fallback": "assets/thumbs/75d8f8366b2f8399.svg"
+  },
+  {
+    "title": "Silk",
+    "file": "clsilk.html",
+    "category": "Arcade",
+    "image": "http://weavesilk.com/img/silk_thumb.png",
+    "search": "silk clsilk.html arcade",
+    "fallback": "assets/thumbs/335b357d1e4c76f1.svg"
+  },
+  {
+    "title": "Obby Robby: Only Up",
+    "file": "clobbyonlyup.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/21800f26175ac073.svg",
+    "search": "obby robby only up clobbyonlyup.html platformer",
+    "fallback": "assets/thumbs/21800f26175ac073.svg"
+  },
+  {
+    "title": "Pico8",
+    "file": "clpico8.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/7a464d581e053666.svg",
+    "search": "pico8 clpico8.html arcade",
+    "fallback": "assets/thumbs/7a464d581e053666.svg"
+  },
+  {
+    "title": "WebOsu 2.0",
+    "file": "closu.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/9acd253152be2918.svg",
+    "search": "webosu 2.0 closu.html arcade",
+    "fallback": "assets/thumbs/9acd253152be2918.svg"
+  },
+  {
+    "title": "Uckyblockobby Euophratesriver",
+    "file": "cluckyblockobbyEUOPHRATESRIVER.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/9537a4d1cda7e2f0.svg",
+    "search": "uckyblockobby euophratesriver cluckyblockobbyEUOPHRATESRIVER.html platformer",
+    "fallback": "assets/thumbs/9537a4d1cda7e2f0.svg"
+  },
+  {
+    "title": "Jailbreakobbbobob",
+    "file": "cljailbreakobbbobob.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/6fc4dc08f8312db9.svg",
+    "search": "jailbreakobbbobob cljailbreakobbbobob.html arcade",
+    "fallback": "assets/thumbs/6fc4dc08f8312db9.svg"
+  },
+  {
+    "title": "Bouncy Motors",
+    "file": "clbouncymotors.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/56859b7b046b33d5.svg",
+    "search": "bouncy motors clbouncymotors.html arcade",
+    "fallback": "assets/thumbs/56859b7b046b33d5.svg"
+  },
+  {
+    "title": "Dig Out of Prison",
+    "file": "clDigOutofPrison.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/27447b87d577acfd.svg",
+    "search": "dig out of prison clDigOutofPrison.html arcade",
+    "fallback": "assets/thumbs/27447b87d577acfd.svg"
+  },
+  {
+    "title": "Bank Robbery 2",
+    "file": "clbankrobbery2.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/a23843e04bc891c1.svg",
+    "search": "bank robbery 2 clbankrobbery2.html arcade",
+    "fallback": "assets/thumbs/a23843e04bc891c1.svg"
+  },
+  {
+    "title": "Car Stunts Driving",
+    "file": "clcarstuntsdriving.html",
+    "category": "Racing",
+    "image": "assets/thumbs/784dfef94402499f.svg",
+    "search": "car stunts driving clcarstuntsdriving.html racing",
+    "fallback": "assets/thumbs/784dfef94402499f.svg"
+  },
+  {
+    "title": "n-gon",
+    "file": "clngon.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/95d5ab281e62724c.svg",
+    "search": "n-gon clngon.html arcade",
+    "fallback": "assets/thumbs/95d5ab281e62724c.svg"
+  },
+  {
+    "title": "Russian Sandbox",
+    "file": "clrussiansandbox.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/a63926b414573885.svg",
+    "search": "russian sandbox clrussiansandbox.html simulation",
+    "fallback": "assets/thumbs/a63926b414573885.svg"
+  },
+  {
+    "title": "Smash Karts",
+    "file": "clsmashkartsworking.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/79ebeb8677b852d8.svg",
+    "search": "smash karts clsmashkartsworking.html arcade",
+    "fallback": "assets/thumbs/79ebeb8677b852d8.svg"
+  },
+  {
+    "title": "Tag",
+    "file": "cltagcm.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/c2bd6bedb5089d4e.svg",
+    "search": "tag cltagcm.html arcade",
+    "fallback": "assets/thumbs/c2bd6bedb5089d4e.svg"
+  },
+  {
+    "title": "Sonic CD",
+    "file": "clsoniccdmobile.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/dc04f77cd67f1909.svg",
+    "search": "sonic cd clsoniccdmobile.html platformer",
+    "fallback": "assets/thumbs/dc04f77cd67f1909.svg"
+  },
+  {
+    "title": "GrindCraft",
+    "file": "clgrindcraft.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/428ace233bba8233.svg",
+    "search": "grindcraft clgrindcraft.html simulation",
+    "fallback": "assets/thumbs/428ace233bba8233.svg"
+  },
+  {
+    "title": "Brainrot",
+    "file": "clbrainrot.html",
+    "category": "Puzzle",
+    "image": "assets/thumbs/160e55d5b7f8642d.svg",
+    "search": "brainrot clbrainrot.html puzzle",
+    "fallback": "assets/thumbs/160e55d5b7f8642d.svg"
+  },
+  {
+    "title": "Car King Arena",
+    "file": "clcarkingarena.html",
+    "category": "Racing",
+    "image": "assets/thumbs/06ddfd5dbd1bb85f.svg",
+    "search": "car king arena clcarkingarena.html racing",
+    "fallback": "assets/thumbs/06ddfd5dbd1bb85f.svg"
+  },
+  {
+    "title": "EmulatorJS",
+    "file": "clemujs.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/be9cc5e8253e9a01.svg",
+    "search": "emulatorjs clemujs.html arcade",
+    "fallback": "assets/thumbs/be9cc5e8253e9a01.svg"
+  },
+  {
+    "title": "Solar Smash",
+    "file": "clsolarsmash.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/a120f5060a7b5f79.svg",
+    "search": "solar smash clsolarsmash.html arcade",
+    "fallback": "assets/thumbs/a120f5060a7b5f79.svg"
+  },
+  {
+    "title": "Nubby's Number Factory",
+    "file": "clnubbysnumberfactory.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/ea55ea1b8ce80640.svg",
+    "search": "nubby's number factory clnubbysnumberfactory.html arcade",
+    "fallback": "assets/thumbs/ea55ea1b8ce80640.svg"
+  },
+  {
+    "title": "JSVecX",
+    "file": "cljsvecx.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/94ef34ca167f2da6.svg",
+    "search": "jsvecx cljsvecx.html arcade",
+    "fallback": "assets/thumbs/94ef34ca167f2da6.svg"
+  },
+  {
+    "title": "Grow a Garden",
+    "file": "clgrowagarden.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/53b2064ce9ba3fe8.svg",
+    "search": "grow a garden clgrowagarden.html simulation",
+    "fallback": "assets/thumbs/53b2064ce9ba3fe8.svg"
+  }
