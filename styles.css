@@ -103,3 +103,83 @@ button{cursor:pointer}
 @media(max-width:1050px){.website-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.website-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.website-card{padding:10px;gap:10px}.website-image-wrap{width:62px;flex-basis:62px}}
 @media(max-width:420px){.website-grid{grid-template-columns:1fr}.website-card{padding:12px}.website-image-wrap{width:70px;flex-basis:70px}}
+/* In-arcade website viewer */
+.website-viewer {
+  width: 100%;
+  height: calc(100vh - 115px);
+  min-height: 500px;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #05040a;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 15px;
+}
+
+.website-viewer.hidden {
+  display: none !important;
+}
+
+.website-viewer-bar {
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 14px;
+  background: #11101d;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+
+.website-viewer-bar strong {
+  color: #fff;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.website-viewer-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.website-viewer-controls button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 9px;
+  background: #211d31;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#website-frame {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  border: 0;
+  background: white;
+}
+
+@media(max-width:600px) {
+  .website-viewer {
+    height: calc(100vh - 90px);
+    min-height: 400px;
+  }
+
+  .website-viewer-bar {
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .website-viewer-bar strong {
+    font-size: 12px;
+  }
+
+  .website-viewer-bar .secondary-button {
+    padding: 10px;
+    font-size: 11px;
+  }
+}
