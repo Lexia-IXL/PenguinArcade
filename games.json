@@ -161,3 +161,164 @@
     "fallback": "assets/thumbs/b4ba724e42b70b34.svg"
   }
 ]
+
+  {
+    "title": "Touhou2",
+    "file": "cltouhou2.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/cfbc29166463ce3a.svg",
+    "search": "touhou2 cltouhou2.html arcade",
+    "fallback": "assets/thumbs/cfbc29166463ce3a.svg"
+  },
+  {
+    "title": "Redvbluefix",
+    "file": "redvbluefix.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/bb5bac8242a21ecf.svg",
+    "search": "redvbluefix redvbluefix.html arcade",
+    "fallback": "assets/thumbs/bb5bac8242a21ecf.svg"
+  },
+  {
+    "title": "Touhou5",
+    "file": "cltouhou5.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/4ef9438fe8797c87.svg",
+    "search": "touhou5 cltouhou5.html arcade",
+    "fallback": "assets/thumbs/4ef9438fe8797c87.svg"
+  },
+  {
+    "title": "Oppositeday",
+    "file": "cloppositeday.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/663393d4c8f4474d.svg",
+    "search": "oppositeday cloppositeday.html arcade",
+    "fallback": "assets/thumbs/663393d4c8f4474d.svg"
+  },
+  {
+    "title": "Touhou",
+    "file": "cltouhou.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/9985177334f9c6b1.svg",
+    "search": "touhou cltouhou.html arcade",
+    "fallback": "assets/thumbs/9985177334f9c6b1.svg"
+  },
+  {
+    "title": "Balls and Bricks",
+    "file": "clballsandbricks.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/0315e431a089fb46.svg",
+    "search": "balls and bricks clballsandbricks.html arcade",
+    "fallback": "assets/thumbs/0315e431a089fb46.svg"
+  },
+  {
+    "title": "PICO-8 Education Edition",
+    "file": "clpico8edu.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/0d1b594339e4093e.svg",
+    "search": "pico-8 education edition clpico8edu.html arcade",
+    "fallback": "assets/thumbs/0d1b594339e4093e.svg"
+  },
+  {
+    "title": "WAFLASH",
+    "file": "clsentryfortress.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/fb0477acbf52876e.svg",
+    "search": "waflash clsentryfortress.html arcade",
+    "fallback": "assets/thumbs/fb0477acbf52876e.svg"
+  },
+  {
+    "title": "There Is No Game",
+    "file": "clthereisnofile.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/1ac27ea0128c5b06.svg",
+    "search": "there is no game clthereisnofile.html arcade",
+    "fallback": "assets/thumbs/1ac27ea0128c5b06.svg"
+  },
+  {
+    "title": "WAFLASH",
+    "file": "clBTD1.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/78c9b2b01a77befc.svg",
+    "search": "waflash clbtd1.html arcade",
+    "fallback": "assets/thumbs/78c9b2b01a77befc.svg"
+  },
+  {
+    "title": "Big Tower Tiny Square 2",
+    "file": "clbigtowertinysquare2.html",
+    "category": "Strategy",
+    "image": "assets/thumbs/607cc0de271ff06b.svg",
+    "search": "big tower tiny square 2 clbigtowertinysquare2.html strategy",
+    "fallback": "assets/thumbs/607cc0de271ff06b.svg"
+  },
+  {
+    "title": "Ultimate Flash Sonic",
+    "file": "MINECRAFTTOWERDEFENSE.html",
+    "category": "Platformer",
+    "image": "assets/thumbs/e58afecf34ef991e.svg",
+    "search": "ultimate flash sonic minecrafttowerdefense.html platformer",
+    "fallback": "assets/thumbs/e58afecf34ef991e.svg"
+  },
+  {
+    "title": "Minecraft Parkour",
+    "file": "clblockcraftparkour.html",
+    "category": "Simulation",
+    "image": "assets/thumbs/b240fde897dcd5ab.svg",
+    "search": "minecraft parkour clblockcraftparkour.html simulation",
+    "fallback": "assets/thumbs/b240fde897dcd5ab.svg"
+  },
+  {
+    "title": "Kourio",
+    "file": "clkourio.html",
+    "category": "Arcade",
+    "image": "https://cdn.jsdelivr.net/gh/Pok12d/ta@main/kour/TemplateData/background-og.webp",
+    "search": "kourio clkourio.html arcade",
+    "fallback": "assets/thumbs/9f78918626c01968.svg"
+  },
+  {
+    "title": "Frickbears 3",
+    "file": "clfivenightsatfrickbears3.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/089ce62d6a0b977f.svg",
+    "search": "frickbears 3 clfivenightsatfrickbears3.html arcade",
+    "fallback": "assets/thumbs/089ce62d6a0b977f.svg"
+  },
+  {
+    "title": "Core Ball，Level 4",
+    "file": "clcoreball.html",
+    "category": "Arcade",
+    "image": "assets/thumbs/375b0941071b6a7b.svg",
+    "search": "core ball，level 4 clcoreball.html arcade",
+    "fallback": "assets/thumbs/375b0941071b6a7b.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clhit8ox.html",
+    "category": "Racing",
+    "image": "assets/thumbs/5a258b9d1a921e12.svg",
+    "search": "pico-8 cartridge clhit8ox.html racing",
+    "fallback": "assets/thumbs/5a258b9d1a921e12.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clceleste2.html",
+    "category": "Racing",
+    "image": "assets/thumbs/5a7ce33e90a72063.svg",
+    "search": "pico-8 cartridge clceleste2.html racing",
+    "fallback": "assets/thumbs/5a7ce33e90a72063.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "clcoffeemaker.html",
+    "category": "Racing",
+    "image": "assets/thumbs/2eb85a953bd3388f.svg",
+    "search": "pico-8 cartridge clcoffeemaker.html racing",
+    "fallback": "assets/thumbs/2eb85a953bd3388f.svg"
+  },
+  {
+    "title": "PICO-8 Cartridge",
+    "file": "cljustoneboss.html",
+    "category": "Racing",
+    "image": "assets/thumbs/fdd9fb6a73d532e9.svg",
+    "search": "pico-8 cartridge cljustoneboss.html racing",
+    "fallback": "assets/thumbs/fdd9fb6a73d532e9.svg"
+  }
