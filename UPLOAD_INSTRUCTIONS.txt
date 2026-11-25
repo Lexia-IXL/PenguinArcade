@@ -1,2 +1,2 @@
-Batch 03: game files 199-297 of 1368.
+Batch 05: game files 397-495 of 1368.
 Extract this ZIP, then upload its contents to the PenguinArcade repository.
